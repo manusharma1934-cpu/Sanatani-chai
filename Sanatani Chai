@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>सनातनी चाय</title>
+<style>
+body {font-family: Arial, sans-serif; margin:0; padding:0; scroll-behavior: smooth;}
+header {position:relative; height:100vh; overflow:hidden; color:white; display:flex; flex-direction:column; justify-content:center; align-items:center; text-align:center;}
+header video {position:absolute; top:0; left:0; width:100%; height:100%; object-fit:cover; z-index:-1;}
+header h1 {font-size:3em; margin:0;}
+header p {font-size:1.5em;}
+button {padding:10px 20px; margin-top:20px; font-size:1em; cursor:pointer; background:#c49b63; border:none; color:white; border-radius:5px; transition: 0.3s;}
+button:hover {background:#b07f4c;}
+section {padding:60px 20px; text-align:center;}
+.products {display:flex; flex-wrap:wrap; justify-content:center; gap:20px;}
+.product-card {border:1px solid #ccc; border-radius:10px; padding:20px; width:250px; transition:0.3s;}
+.product-card:hover {transform: scale(1.05); box-shadow:0 5px 15px rgba(0,0,0,0.3);}
+.product-card img {width:100%; border-radius:10px;}
+footer {background:#222; color:white; padding:20px; text-align:center;}
+a {color:#c49b63; text-decoration:none;}
+a:hover {text-decoration:underline;}
+</style>
+</head>
+<body>
+
+<header>
+<video autoplay muted loop>
+<source src="video/tea_hero.mp4" type="video/mp4">
+</video>
+<h1>सनातनी चाय</h1>
+<p>Sip the Tradition, Taste the Purity</p>
+<button onclick="location.href='#products'">Order Now</button>
+</header>
+
+<section id="about">
+<h2>About Us</h2>
+<p>Sanatani Chai brings you authentic traditional Indian tea, sourced from the finest leaves, brewed to perfection, and served with love.</p>
+<img src="images/about_tea.jpg" alt="About Tea" style="width:50%; border-radius:10px; margin-top:20px;">
+</section>
+
+<section id="products">
+<h2>Our Special Teas</h2>
+<div class="products">
+<div class="product-card">
+<img src="images/premium.jpg" alt="Premium">
+<h3>Premium</h3>
+<p>Classic, rich, and smooth traditional chai</p>
+<p>₹260</p>
+<button onclick="location.href='https://wa.me/918168613045'">Buy Now</button>
+</div>
+<div class="product-card">
+<img src="images/premium_plus.jpg" alt="Premium Plus">
+<h3>Premium Plus</h3>
+<p>Enhanced flavors with aromatic spices</p>
+<p>₹280</p>
+<button onclick="location.href='https://wa.me/919968038047'">Buy Now</button>
+</div>
+<div class="product-card">
+<img src="images/gold.jpg" alt="Gold">
+<h3>Gold</h3>
+<p>Luxurious blend for a royal experience</p>
+<p>₹320</p>
+<button onclick="location.href='https://wa.me/919968038047'">Buy Now</button>
+</div>
+<div class="product-card">
+<img src="images/diamond.jpg" alt="Diamond">
+<h3>Diamond</h3>
+<p>Finest ingredients for the ultimate chai</p>
+<p>₹480</p>
+<button onclick="location.href='https://wa.me/919968038047'">Buy Now</button>
+</div>
+</div>
+</section>
+
+<section id="testimonials">
+<h2>What Our Customers Say</h2>
+<p>“Best chai in town! Pure and flavorful.” – Rohan</p>
+<p>“I feel the tradition in every sip.” – Priya</p>
+</section>
+
+<section id="contact">
+<h2>Contact Us</h2>
+<p>Phone: <a href="tel:+918168613045">+91-8168613045</a> / <a href="tel:+919968038047">+91-9968038047</a></p>
+<p>Email: <a href="mailto:Sanatanichai2476@gmail.com">Sanatanichai2476@gmail.com</a></p>
+<p>Instagram: <a href="#" target="_blank">@sanatanichai</a></p>
+<p>Facebook: <a href="#" target="_blank">Sanatani Chai</a></p>
+<p>WhatsApp: <a href="https://wa.me/918168613045" target="_blank">Chat with us</a></p>
+</section>
+
+<footer>
+<p>© 2025 सनातनी चाय. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
